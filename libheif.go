@@ -1,4 +1,4 @@
-package libheif
+package libheifv2
 
 import (
 	"bytes"
