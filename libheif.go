@@ -48,7 +48,7 @@ func saveAsJpeg(img image.Image, filename string, quality int) error {
 		return fmt.Errorf("could not save JPEG image as %s: %w", filename, err)
 	}
 
-	log.Printf("Image successfully written to %s\n", filename)
+	// log.Printf("Image successfully written to %s\n", filename)
 	return nil
 }
 
